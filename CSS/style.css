@@ -131,3 +131,30 @@ text-decoration: none;
 #grande fieldset{
     width: 50%;
 }
+.fol{
+    background-color: rgba(255,210,49,255);
+}
+.prog{
+    background-color: rgba(254,128,129,255)
+    ;
+}
+.bdatos{
+    background-color: rgba(129,255,129,255)
+    ;
+}
+.sisi{
+    background-color: rgba(201,160,200,255)
+    ;
+}
+.ende{
+    background-color: rgba(128,128,192,255)
+    ;
+}
+.ing{
+    background-color: rgba(239,240,200,255)
+    ;
+}
+.lm{
+    background-color: rgba(254,128,129,255)
+    ;
+}
