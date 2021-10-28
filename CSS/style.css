@@ -1,0 +1,133 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: snow;
+}
+header img{
+width: 100%;
+height: 150px;
+}
+#principal{
+
+}
+nav{
+    width: 20%;
+    float: left;
+
+}
+#contenido {
+    width: 80%;
+    float: right;
+    text-align: center;
+    padding-bottom: 14px;
+    margin: 0 auto;
+}
+footer{
+    background-color: rgb(154, 135, 222);
+    color: rgb(18, 209, 209);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(24, 148, 76);
+    font-size: 22px;
+    border: solid 1px rgb(154, 135, 222);
+    padding: 8px;
+    border-radius: 10px;
+}
+ nav ul li:hover {
+    color: rgb(19, 18, 18);
+    background-color: seagreen;
+}
+.texto{
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+}
+.resalto{
+    color: aquamarine;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.titulop{
+    text-align: center;
+    color: chartreuse;
+}
+.enlaces{
+    color: darkmagenta;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tabladefault th{
+    font-size: 28px;
+    color: aquamarine;
+    background-color: burlywood;
+}
+#tabladefault td{
+    font-size: 20px;
+    color: rgb(64, 187, 119);
+    background-color: rgb(233, 199, 10);
+}
+#tablacom th{
+    font-size: 20px;
+    color: rgb(35, 36, 53);
+    background-color: rgb(184, 172, 105);
+}
+#tablacom td{
+    font-size: 20px;
+    color: rgb(83, 7, 14);
+    background-color: rgb(7, 107, 102);
+}
+#tablaparimpar tr:nth-child(odd) td{
+        background-color: darkcyan;
+}
+      
+#tablaparimpar tr:nth-child(even) td{
+        background-color: crimson;
+}
+#tablaparimpar th{
+    background-color: darkkhaki;
+    color: darkmagenta;
+}
+#comd li {
+    list-style: georgian;
+}
+#comd li li {
+    list-style: inside;
+}
+#comd li li li {
+    list-style: upper-latin;
+}
+#como li {
+    list-style: georgian;
+}
+#como li li {
+    list-style-image: url(../Imagenes/corazon16.png);
+}
+#como li li li {
+    list-style-image: none;
+    list-style: upper-latin;
+}
+#multimedia{
+    text-align: center;
+}
+a {
+text-decoration: none;
+}
+#registro fieldset{
+    width: 40%;
+}
+#grande fieldset{
+    width: 50%;
+}

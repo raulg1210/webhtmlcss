@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-widht, initial">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <img src="Imagenes/imheader.jpeg" alt="computer">
+            </header>
+            <div id="principal">
+                <nav>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="parrafos.html"><li>Párrafos</li></a>
+                        <a href="Enlaces.html"><li>Enlaces</li></a> 
+                        <a href="Tablas.html"><li>Tablas</li></a>
+                        <a href="Listas.html"><li>Listas</li></a>
+                        <a href="Formulario.html"><li>Formulario</li></a>
+                        <a href="Multimedia.html"><li>Multimedia</li></a>
+                        <a href="FormHtml5.html"><li>Form Html5</li></a>
+                    </ul>
+                </nav>
+                <div id="contenido">
+                    <div id="formu">
+                        <h1 class="titulop">Formulario</h1>
+                        <p>La etiqueta principal para crear formularios es <span class="etiqueta">form</span></p>
+                        <form action="http://www.azarquie.es/registro.php" method="get" id="registro">
+                        <h2 class="resalto">Formulario inicial</h2>
+                        <fieldset>
+                            <legend>Registro</legend>
+                            <p><input type="text" name="nombre" placeholder="Nombre"/></p>
+                            <p><input type="password" name="clave" placeholder="Password" /></p>
+                            <p><textarea name="comentarios" id="" cols="30" rows="10"></textarea></p>
+                            <input type="hidden" name="secreto" value="kk">
+                            <p><input type="submit" value="enviar" /></p>
+                        </fieldset>
+                        </form>
+                        <h2 class="resalto">Formulario grande</h2>
+                        <form action="" method="post" id="grande">
+                            <fieldset>
+                                <legend>Form.Variado</legend>
+                                <p>Provincia
+                                    <select name="Provincia">
+                                        <option value="1">Toledo</option>
+                                        <option value="2">Ciudad Real</option>
+                                        <option value="3">Cuenca</option>
+                                        <option value="4">Guadalajara</option>
+                                        <option value="5">Albacete</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    Provincia:
+                                    <select name="Provincia" multiple size="5">
+                                        <option value="Toledo">Toledo</option>
+                                        <option value="Ciudad Real">Ciudad Real</option>
+                                        <option value="Cuenca">Cuenca</option>
+                                        <option value="Guadalajara">Guadalajara</option>
+                                        <option value="Albacete">Albacete</option>
+                                    </select>
+                                </p>
+                                <fieldset>
+                                    <legend>Aficiones</legend>
+                                    <p>
+                                        <input type="checkbox" name="cine" value="cine">Cine <br>
+                                        <input type="checkbox" name="deportes" value="deportes">Deportes <br>
+                                        <input type="checkbox" name="videojuegos" value="videojuegos">Videojuegos <br>
+                                        <input type="checkbox" name="juergas" value="juergas">Juergas <br>
+                                    </p>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Sexo</legend>
+                                    <p>
+                                        <input type="radio" name="Sexo" value="Hombre"> Hombre <br>
+                                        <input type="radio" name="Sexo" value="Mujer"> Mujer <br>
+                                        <input type="radio" name="Sexo" value="Otros"> Otros <br>
+                                    </p>
+                                </fieldset>
+                                <p>
+                                    <input type="reset" value="clear">
+                                    <input type="submit" value="Enviar">
+                                </p>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <footer>
+                S1DAW-&copy; 2021 Azarquiel
+            </footer>
+        </div>
+    </body>
+</html>

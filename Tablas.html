@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-widht, initial">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <img src="Imagenes/imheader.jpeg" alt="computer">
+            </header>
+            <div id="principal">
+                <nav>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="parrafos.html"><li>Párrafos</li></a>
+                        <a href="Enlaces.html"><li>Enlaces</li></a> 
+                        <a href="Tablas.html"><li>Tablas</li></a>
+                        <a href="Listas.html"><li>Listas</li></a>
+                        <a href="Formulario.html"><li>Formulario</li></a>
+                        <a href="Multimedia.html"><li>Multimedia</li></a>
+                        <a href="FormHtml5.html"><li>Form Html5</li></a>
+                    </ul>
+                </nav>
+                <div id="contenido">
+                    <h1 class="titulop">Tablas</h1>
+                    <p>Las tablas se diseñan con los atributos <span class="resalto">table</span>, <span class="resalto">tr</span>, <span class="resalto">td</span> y <span class="resalto">th</span></p>
+                    <div id="tabladefault">
+                            <table border="1">
+                                <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Abrir</td>
+                                    <td>Copiar</td>
+                                    <td>Ventana</td>
+                                    <td>A cerca de</td>
+                                </tr>
+                                <tr>
+                                    <td>Guardar</td>
+                                    <td>Pegar</td>
+                                    <td>Full screen</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tablacom">
+                            <h2 class="titulop">Tabla con combinaciones de celdas</h2>
+                            <table border="1">
+                                <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Abrir</td>
+                                    <td>Copiar</td>
+                                    <td>Ventana</td>
+                                    <td>A cerca de</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Pegar</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tablaparimpar">
+                        <h2 class="titulop">Tabla con diferente diseño en filas pares e impares</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                <th>Archivo</th>
+                                <th>Editar</th>
+                                <th>Ver</th>
+                                <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>Abrir</td>
+                                <td>Copiar</td>
+                                <td>Ventana</td>
+                                <td>A cerca de</td>
+                            </tr>
+                            <tr>
+                                <td>Guardar</td>
+                                <td>Pegar</td>
+                                <td>Full screen</td>
+                                <td>FAQ</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div id="thorario">
+                        <table>
+                            <thead>
+                                <tr class="resalto">
+                                    <th>/-\</th>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miercoles</th>
+                                    <th>Jueves</th>
+                                    <th>Viernes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>8:15 <br> 9:10</th>
+                                    <td>FOL <br> Prud. Ga, Es <br> (1-B-311)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cb"></div>
+            </div>
+            <footer>
+                S1DAW-&copy; 2021 Azarquiel
+            </footer>
+        </div>
+    </body>
+</html>
